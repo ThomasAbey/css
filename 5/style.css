@@ -1,0 +1,123 @@
+body
+{
+    margin: 100px;
+    background-color:rgb(33, 30, 30);
+}
+.nav_bar
+{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(245, 240, 240);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+
+    
+}
+
+.contanier
+{
+    width: 98%;
+}
+.left
+{
+    
+    width: 58%;
+    background-color:black;
+    color: aliceblue;
+    float: left;
+    height: 480px;
+    padding-left: 30px;
+    padding-right: 50px;
+    border-bottom-left-radius: 8px;
+    
+}
+.image{
+    padding-top: 20px;
+}
+.welcome{
+    padding-top: 60px;
+}
+.welcome2, .paragraph{
+    color: rgb(75, 73, 73);
+    font-size: smaller;
+    
+    
+}
+.btn{
+    background-color:rgb(17, 132, 112);
+    color: white;
+    padding: 10px;
+    float: left;
+    
+}
+.last{
+    display: inline;
+    font-size:x-small;
+    color: rgb(58, 58, 58) ;
+    font-family: "Gill Sans", sans-serif;
+    
+}
+
+.right
+{
+    width: 30%;
+    background-color:rgb(17, 132, 112);
+    color: aliceblue;
+    float: right;
+    padding-top: 165px;
+    padding-bottom: 147px;
+    padding-left:46px;
+    border-bottom-right-radius: 8px;
+}
+.center
+{
+    text-align: center;
+    padding-top: 100px;
+}
+.form{
+    background:transparent;
+    border: none;
+    
+    
+}
+.head{
+     color: rgb(239, 236, 236);
+}
+.email, .password{
+    background:transparent;
+    border: none;
+    color: rgb(239,236,236);
+    height: 40px;
+    font-size: 13px;
+}
+
+.btn1{
+    display: inline;
+}
+
+.btn2{
+    background-color: white;
+    color:rgb(17, 132, 112);
+    border: none;
+    padding: 5px;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(239, 236, 236);
+    padding-left:13px ;
+    opacity: 50%;
+}
+input{
+    background:transparent;
+    border: none;
+    color: white;
+    border-bottom: 1px solid white;
+    width: 260px;
+}
+::placeholder{
+    color: white;
+    opacity: 50%;
+}
